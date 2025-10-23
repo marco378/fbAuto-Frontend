@@ -14,6 +14,7 @@ const Sidebar = () => {
     { name: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
     { name: "Job Posts", href: "/job-posts", icon: Briefcase },
     { name: "Candidates", href: "/candidates", icon: Users },
+    { name: "Extension Setup", href: "/extension", icon: LayoutDashboard }, // You can swap icon later
   ];
 
   return (
