@@ -87,7 +87,7 @@ export default function ExtensionSetup() {
   };
 
   const downloadExtension = () => {
-    window.location.href = '/extension.zip';
+    window.open('https://chromewebstore.google.com/detail/fb-job-posting-automation/dnmdpnpoigoheodnbdigodkmlhnehiik', '_blank');
   };
 
   if (loading) {
@@ -111,7 +111,7 @@ export default function ExtensionSetup() {
         <div className="step-badge">1</div>
         <div className="step-content">
           <h2>Download Extension</h2>
-          <p>Download and install the Chrome extension</p>
+          <p>Download and install the Chrome extension </p>
           <button onClick={downloadExtension} className="btn btn-primary">
             📥 Download Extension
           </button>
